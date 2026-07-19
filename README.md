@@ -49,7 +49,7 @@ The variance-to-mean ratio above 1 is a first indication of overdispersion relat
 | `log_densita` | Log population density (standardised) | SSVS candidate |
 
 <!-- FIGURE 1: correlogram -->
-![Correlation matrix](output/correlogram.png)
+![Correlation matrix](output/Correlogram.png)
 
 Linear correlations among covariates show no severe multicollinearity, with one notable exception: a moderate negative association between driver age and bonus-malus (r ≈ −0.5). This relationship becomes relevant later, when interpreting the variable selection results.
 
@@ -139,7 +139,7 @@ y_i ~ NegBinomial(μ_i, φ)
 | φ (dispersion) | 0.13 | 0.04 | [0.07, 0.22] | Strong overdispersion confirmed |
 
 <!-- FIGURE 3: credible intervals for final model parameters -->
-![Credible intervals](output/Credible_intervals.png)
+![Credible intervals](output/Credible intervals.png)
 
 **Driver age is the dominant risk factor.** Young drivers show a claim rate roughly 4.3 times higher than adults, with a credible interval entirely above zero. Senior drivers are statistically indistinguishable from adults. Population density and vehicle power point in the expected direction but their credible intervals include zero, indicating weak evidence on this sample.
 
