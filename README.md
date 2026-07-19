@@ -49,7 +49,8 @@ The variance-to-mean ratio above 1 is a first indication of overdispersion relat
 | `log_densita` | Log population density (standardised) | SSVS candidate |
 
 <!-- FIGURE 1: correlogram -->
-![Correlation matrix]([Rplot.pdf](https://github.com/user-attachments/files/30163536/Rplot.pdf))
+![Correlation matrix](<img width="1603" height="903" alt="Rplot03" src="https://github.com/user-attachments/assets/d1751267-9e1d-4130-ba19-97b94fee343e" />
+)
 
 Linear correlations among covariates show no severe multicollinearity, with one notable exception: a moderate negative association between driver age and bonus-malus (r ≈ −0.5). This relationship becomes relevant later, when interpreting the variable selection results.
 
