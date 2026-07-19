@@ -139,7 +139,7 @@ y_i ~ NegBinomial(μ_i, φ)
 | φ (dispersion) | 0.13 | 0.04 | [0.07, 0.22] | Strong overdispersion confirmed |
 
 <!-- FIGURE 3: credible intervals for final model parameters -->
-![Credible intervals](output/Credible intervals.png)
+![Credible intervals](output/Credible_intervals.png)
 
 **Driver age is the dominant risk factor.** Young drivers show a claim rate roughly 4.3 times higher than adults, with a credible interval entirely above zero. Senior drivers are statistically indistinguishable from adults. Population density and vehicle power point in the expected direction but their credible intervals include zero, indicating weak evidence on this sample.
 
